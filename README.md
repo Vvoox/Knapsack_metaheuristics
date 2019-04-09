@@ -1,1 +1,3 @@
 # Knapsack_metaheuristics
+This program aims to calculate various metaheuristic algorithms applied to the “Knapsack Problem”. 
+The Knapsack Problem is a combinatorial optimization maximization problem which requires to find the number of each weighted item to be included in a hypothetical knapsack, so the total weight is less than or equal to the required weight. To come to an optimized solution for such a problem, a variety of algorithms can possibly be used. In this paper, Tabu Search, Scatter Search and Local Search algorithms are compared taking execution time, solution quality and relative difference to best known quality, as metrics to compute the results of this NP-hard problem.
