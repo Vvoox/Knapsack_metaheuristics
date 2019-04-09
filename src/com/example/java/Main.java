@@ -74,7 +74,7 @@ public class Main {
             if (knapsack[i][1] < max_weight) {
                 int s=i;
                 System.out.println("Best possiblity "+t+" :" );
-                System.out.print(" You can hold the Objects "+s);
+                System.out.println(" You can hold the Objects "+s);
 
                 for(int j=i+1 ; j<obj_number ; j++){
 
