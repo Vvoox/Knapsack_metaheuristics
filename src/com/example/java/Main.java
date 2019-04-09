@@ -13,7 +13,7 @@ public class Main {
         Scanner wgh = new Scanner(System.in);
         max_weight = wgh.nextInt();
         int[] knapsack[]= new int[obj_number][2];
-        int cnt = 1;
+        int cnt = 0;
         for (int i = 0; i < obj_number; i++) {
             System.out.print("Object "+cnt+" , Outcome : ");
             Scanner obj_value = new Scanner(System.in);
@@ -49,9 +49,7 @@ public class Main {
                         knapsack[i]= knapsack[j];
                         knapsack[j] = l;
                 }
-                else {
-                    break;
-                }
+
             }
         }
         System.out.print("\n");
