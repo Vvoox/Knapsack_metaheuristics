@@ -73,6 +73,7 @@ public class Main {
                 int s=i;
                 System.out.println("Best possiblity "+t+" :" );
                 System.out.println(" You can hold the Objects "+s);
+                t++;
 
                 for(int j=i+1 ; j<obj_number ; j++){
 
@@ -85,11 +86,12 @@ public class Main {
                         if(i!=j){
 
                             System.out.println(" and "+ j+ " in you knapsack ");
-                            t++;
+
                         }
 
                     }
                 }
+
             }
 
         }
