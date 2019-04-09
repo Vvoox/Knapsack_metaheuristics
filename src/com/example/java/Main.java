@@ -43,7 +43,7 @@ public class Main {
 
             for (int j = 0; j < obj_number; j++) {
 
-                if (knapsack[i][1] >= knapsack[j][1] && i != j) {
+                if (knapsack[i][0] >= knapsack[j][0] && i != j) {
 
                         int[] l = knapsack[i];
                         knapsack[i]= knapsack[j];
